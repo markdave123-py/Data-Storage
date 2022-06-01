@@ -1,0 +1,273 @@
+body{
+    margin: 0 auto;
+    background-color: hsl(229, 57%, 11%);
+}
+.container{
+    margin-top: 181px;
+    align-content: center;
+}
+.cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+    position: relative;
+    top: 70px;
+    
+}
+.container3{
+    z-index: 1;
+}
+
+.groups{
+    margin-top: 20px;
+    display: flex;
+}
+.img2{
+    background-color: hsl(229, 57%, 11%);
+    padding: 7px;
+    width: 38%;
+    border-radius: 4px;
+}
+.img3{
+    background-color: hsl(229, 57%, 11%);
+    padding: 7px;
+    width: 43%;
+    border-radius: 4px; 
+}
+.img4{
+    background-color: hsl(229, 57%, 11%);
+    padding: 7px;
+    width: 47%;
+    border-radius: 4px;
+}
+.img1{
+    width: 80px;
+}
+.container2{
+    background-color: hsl(228, 56%, 26%);
+    margin-left: 20px;
+    width: 32%;
+    padding-left: 20px;
+    padding-top: 5px;
+    border-radius: 5px;
+    position: relative;
+    top: 10px;
+    height: 80px;
+}
+.p{
+    font-size: 1.5rem;
+    position: relative;
+    bottom: 16px;
+    left: 7px;
+}
+.img5{
+    width: 100%;
+    height: 350px;   
+}
+span{
+    font-size: 8px;
+    position: relative;
+    bottom: 7px;
+    left: 3px;
+}
+.l{
+    color: hsl(0, 0%, 87%);
+    position: relative;
+    top: 1px;
+    font-size: 11.6px;
+    font-weight: 700;
+    padding-right: 4px;
+}
+.gb{
+    font-size: 14px;
+    color: hsl(0, 0%, 68%);
+
+}
+.then{
+    font-size: 8px;
+    margin-top: 0;
+    color: white;
+    position: relative;
+    top: -16px;
+}
+.now{
+    font-size: 8px;
+    color: white;
+    position: relative;
+    top: -33px;
+    left: 366px;
+}
+.div{
+    width: 75%;
+    height: 8px;
+    border-radius: 10px;
+    position: relative;
+    top: 1px;
+    left: 1px;
+    background: linear-gradient(to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+    
+}
+.div span{
+    background-color: white;
+    color: white;
+    width: 2.7%;
+    height: 8px;
+    border-radius: 100%;
+    position: relative;
+    float: right;
+    top: -0.5px;
+    
+}
+.em{
+    width: 90%;
+    height: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color: hsl(229, 57%, 11%);
+}
+.in{
+    background-color: white;
+    border-radius: 5px;
+    width: 100px;
+    height: 40px;
+    position: relative;
+    right: 120px;
+    bottom: 40px;
+    z-index: 3;
+}
+.in::before{
+    position: absolute;
+    content: " ";
+    width: 20%;
+    height: 70%;
+    top:  15px;
+    left: 80px;
+    background-color: white;
+    transform: skewY(45deg);
+    z-index: -1;
+
+}
+.container1{
+    background-color: hsl(228, 56%, 26%);
+    padding-top: 20px;
+    width: 170px;
+    padding-left: 25px;
+    padding-bottom: 20px;
+    border-radius: 5px 50px 5px 5px;
+}
+@media (max-width:375px) {
+    body{
+        background-image: url(./images/bg-mobile.png);
+        
+    }
+    .cont{
+        display: flex;
+        flex-direction: column;
+        
+        align-items: center;
+        justify-content: center;
+        z-index: 2;
+        position: relative;
+        top: -60px
+
+    }
+    .img1{
+        width: 100px;
+        padding-top: 12px;
+        padding-left: 10px;
+    }
+    .img2{
+        width: 35%;
+        padding: 10px;
+        margin-left: 7px;
+        border-radius: 8px;
+        
+    }
+    .img3{
+        width: 38%;
+        padding: 10px;
+        border-radius: 8px;
+        margin-left: 10px;
+        
+    }
+    .img4{
+        width: 42%;
+        padding: 10px;
+        border-radius: 8px;
+        margin-left: 10px;
+    }
+    .container1{
+        font-size: 1.5rem;
+        width: 65%;
+        height: 110px;
+    }
+    .groups{
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    .img5{
+        display: none;
+    }
+    .container2{
+        width: 67%;
+        margin-left: 0;
+        margin-top: 8px;
+        height: 120px;
+    }
+    .now{
+        position: fixed;
+        top: 351px;
+        left: 263px;
+        font-size: 10px;
+    }
+    .then{
+        font-size: 10px;
+        margin-top: 0;
+        color: white;
+        position: relative;
+        top: -13px;
+    }
+    .in::before{
+        display: none;
+    }  
+    .in{
+        position: relative;
+        right: 0px;
+        bottom: 10px;
+        width: 140px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    } 
+    .p{
+        font-size: 2rem;
+        position: relative;
+        bottom: 0;
+        left: 0;
+        font-weight: 600;
+    }
+    .p span{
+        color: hsl(0, 0%, 68%);
+        font-weight: 800;
+        font-size: 0.6rem;
+    }
+    .div{
+        height: 12px;
+    }
+    .em{
+        height: 14px;
+    }
+    .div span{
+        background-color: white;
+        color: white;
+        width: 7%;
+        height: 12px;
+        border-radius: 100%;
+        position: relative;
+        top: 0px;
+        
+    }
+}
